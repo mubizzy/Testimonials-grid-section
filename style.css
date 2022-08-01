@@ -141,3 +141,20 @@ h3 {
 .border-primary-400 {
   border: 2px solid #a775f1;
 }
+
+/* components */
+.testimonial-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+    "one"
+    "two"
+    "three"
+    "four"
+    "five";
+
+  padding-block: 2rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
+}
