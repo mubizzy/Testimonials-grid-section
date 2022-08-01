@@ -233,3 +233,9 @@ h3 {
   background-repeat: no-repeat;
   background-position: top right 10%;
 }
+
+.testimonial img {
+  width: 1.75rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
