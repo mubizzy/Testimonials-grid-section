@@ -180,3 +180,13 @@ h3 {
 .testimonial:nth-child(5) {
   grid-area: five;
 }
+
+@media screen and (min-width: 33em) {
+  .testimonial-grid {
+    grid-template-areas:
+      "one one"
+      "two three"
+      "five five"
+      "four four";
+  }
+}
